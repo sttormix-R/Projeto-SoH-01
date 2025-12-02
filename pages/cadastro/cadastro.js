@@ -19,7 +19,7 @@ async function signUpEagle() {
 
   const user = { name, email, age, nickname, password }
 
-  const response = await fetch("https://projeto-so-h2.vercel.app//cadastrar", {
+  const response = await fetch("http://localhost:3334/cadastrar", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ user })

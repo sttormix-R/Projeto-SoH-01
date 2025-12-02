@@ -19,7 +19,7 @@ async function signUpEagle() {
     }
 
 
-    const response = await fetch("https://projeto-so-h2.vercel.app//login", {
+    const response = await fetch("http://localhost:3334/login", {
         method: "POST", 
         headers: {
             "Content-Type": "application/json"
